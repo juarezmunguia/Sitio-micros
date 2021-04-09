@@ -1,0 +1,39 @@
+#Final{
+	width: 1250px;
+	height: 150px;
+	background-color: #0C0C0F;
+	margin: 0 auto;
+	text-align: justify;
+	border-radius: 20px; /*Bordear el cuadrado de texto*/
+	padding: 10px; /*Espacio entre el borde y el contenido*/
+	box-shadow: 0px 0px 20px rgba(12,12,15,0.5); /*Añade efectos de sombra alrededor del cuadro de texto*/
+}
+#TituloFin{
+	float: left;
+	width: 250px;
+	height: 120px;
+	margin: 3px 45px 3px 90px;
+	padding: 10px;
+}
+
+.ImgFin{
+	float: right;
+	width: 120px;
+	height: 75px;
+}
+
+#Claves{
+	float: left;
+	width: 330px;
+	height: 120px;
+	margin: 3px 45px 3px 45px;
+	padding: 10px;
+	
+}
+#Enlaces{
+	float: left;
+	width: 280px;
+	height: 120px;
+	margin: 3px 45px 3px 45px;
+	padding: 10px;
+}
