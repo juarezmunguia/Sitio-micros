@@ -32,14 +32,6 @@ h2{
 	color: #F7FDFB;
 	text-align: justify; /*Aliniera el texto*/
 }
-.PersonalizadoFin{
-	font-family: "Digital";
-	font-size: 20px;
-	color: #0C0C0F;
-	border-radius: 5px;
-	padding: 3px;
-	text-align: center; /*Aliniera el texto*/
-}
 nav ul li{
 	display: inline-block; /*Mostrar elementos de navegación de manera horizontal*/
 	margin-right: 50px; /*Separar cada elemento 50 px*/
