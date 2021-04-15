@@ -81,9 +81,8 @@ nav ul li a{
 	float: left;
 	width: 350px;
 	height: 90px;
-	margin: 0px 12px 5px 12px;
+	margin: 0px 12px 10px 12px;
 	padding: 10px;
-	border: white solid 2px;
 	border-radius: 5px;
 	list-style: none;
 }
@@ -93,6 +92,36 @@ ul li{
 	color: #F7FDFB;
 	text-align: justify;
 	margin-bottom: 3px;
+}
+.Azul{
+	border-color: #47BDDA;
+	border-width: 3px;
+	border-style: solid;
+}
+.Rosa{
+	border-color: #EEB9FE;
+	border-width: 3px;
+	border-style: solid;
+}
+.Morado{
+	border-color: #9F8AF1;
+	border-width: 3px;
+	border-style: solid;
+}
+.Verde{
+	border-color: #2FDFAE;
+	border-width: 3px;
+	border-style: solid;
+}
+.Amarillo{
+	border-color: #FFF783;
+	border-width: 3px;
+	border-style: solid;
+}
+.Rojo{
+	border-color: #FDAABB;
+	border-width: 3px;
+	border-style: solid;
 }
 a{
 	color: #F7FDFB;
