@@ -1,45 +1,49 @@
-#Final{
-	width: 1250px;
-	height: 150px;
-	background-color: #0C0C0F;
-	margin: 0 auto;
-	text-align: justify;
-	border-radius: 20px; /*Bordear el cuadrado de texto*/
-	padding: 10px; /*Espacio entre el borde y el contenido*/
-	box-shadow: 0px 0px 20px rgba(12,12,15,0.5); /*Añade efectos de sombra alrededor del cuadro de texto*/
+#final {
+  width: 1250px; /*Ancho del div contenido final*/
+  height: 150px; /*Alto del div contenido final*/
+  background-color: #0C0C0F; /*Color de fondo del contenido final*/
+  margin: 0 auto; /*Centra horizontalmente el bloque*/
+  border-radius: 20px; /*Bordea el cuadrado de texto*/
+  padding: 10px; /*Espacio entre el borde y el contenido*/
+  box-shadow: 0px 0px 20px rgba(12,12,15,0.5); /*Añade efectos de sombra alrededor del cuadro de texto*/
 }
-.PersonalizadoFin{
-	font-family: "Digital";
-	font-size: 20px;
-	color: #0C0C0F;
-	border-radius: 5px;
-	padding: 3px;
-	text-align: center; /*Aliniera el texto*/
+
+#tituloFin {
+  float: left; /*Alinea el recuadro que contiene al título a la izquierda*/
+  width: 250px; /*Ancho del div del título*/
+  height: 120px; /*Alto del div del título*/
+  margin: 3px 45px 3px 90px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
+  padding: 10px; /*Espacio entre el borde y el contenido*/
+  text-align: justify; /*Alinea el texto de manera justificada*/
 }
-#TituloFin{
-	float: left;
-	width: 250px;
-	height: 120px;
-	margin: 3px 45px 3px 90px;
-	padding: 10px;
+
+.personalizadoFin {
+  font-family: "Digital"; /*Usa la fuente personalizada para las claves*/
+  font-size: 20px; /*Tamaño de 20px*/
+  color: #0C0C0F; /*Color de la fuente*/
+  border-radius: 5px; /*Bordea las claves de las materia*/
+  padding: 3px; /*Espacio entre el borde y el contenido*/
+  text-align: center; /*Alinea el texto de manera centrada*/
 }
-.ImgFin{
-	float: right;
-	width: 120px;
-	height: 75px;
+
+.imgFin {
+  float: right; /*Alinea la imagen final a la derecha*/
+  width: 120px; /*Ancho de la imagen*/
+  height: 75px; /*Alto de la imagen*/
 }
-#Claves{
-	float: left;
-	width: 330px;
-	height: 120px;
-	margin: 3px 45px 3px 45px;
-	padding: 10px;
-	
+
+#claves {
+  float: left; /*Alinea el recuadro que contiene las claves a la izquierda*/
+  width: 330px; /*Ancho del div de las claves*/
+  height: 120px; /*Alto del div de las claves*/
+  margin: 3px 45px 3px 45px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
+  padding: 10px; /*Espacio entre el borde y el contenido*/
 }
-#Enlaces{
-	float: left;
-	width: 280px;
-	height: 120px;
-	margin: 3px 45px 3px 45px;
-	padding: 10px;
+
+#enlaces {
+  float: left; /*Alinea el recuadro que contiene los enlaces a la izquierda*/
+  width: 280px; /*Ancho del div de los enlaces*/
+  height: 120px; /*Alto del div de los enlaces*/
+  margin: 3px 45px 3px 45px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
+  padding: 10px; /*Espacio entre el borde y el contenido*/
 }
