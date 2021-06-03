@@ -18,7 +18,8 @@
 }
 
 .personalizadoFin {
-  border-radius: 5px; /*Bordea las claves de las materia*/
+  border-top-left-radius: 10px; /*Bordea la esquina superior izquierda*/
+  border-bottom-right-radius: 10px; /*Borde la esquina inferior derecha*/
   padding: 3px; /*Espacio entre el borde y el contenido*/
   font-family: "Digital"; /*Usa la fuente personalizada para las claves*/
   font-size: 20px; /*Tamaño de 20px*/

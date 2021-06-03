@@ -92,7 +92,7 @@ nav ul li a {
   float: left; /*Alinea los recuadros de contacto a la izquierda*/
   width: 350px; /*Ancho de los cuadros de contacto*/
   height: 90px; /*Alto de los cuadros de contacto*/
-  border-radius: 5px; /*Crea bordes a los cuadros de contacto*/
+  border-bottom-right-radius: 20px; /*Bordea la esquina inferior derecha*/
   margin: 0px 12px 10px 12px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
   padding: 10px; /*Espacio entre el borde y el contenido*/
   list-style: none; /*Quita las viñetas de lista*/
