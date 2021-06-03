@@ -12,18 +12,18 @@
   float: left; /*Alinea el recuadro que contiene al título a la izquierda*/
   width: 250px; /*Ancho del div del título*/
   height: 120px; /*Alto del div del título*/
-  text-align: justify; /*Alinea el texto de manera justificada*/
   margin: 3px 45px 3px 90px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
   padding: 10px; /*Espacio entre el borde y el contenido*/
+  text-align: justify; /*Alinea el texto de manera justificada*/
 }
 
 .personalizadoFin {
-  text-align: center; /*Alinea el texto de manera centrada*/
   border-radius: 5px; /*Bordea las claves de las materia*/
   padding: 3px; /*Espacio entre el borde y el contenido*/
   font-family: "Digital"; /*Usa la fuente personalizada para las claves*/
   font-size: 20px; /*Tamaño de 20px*/
   color: #0C0C0F; /*Color de la fuente*/
+  text-align: center; /*Alinea el texto de manera centrada*/
 }
 
 .imgFin {
