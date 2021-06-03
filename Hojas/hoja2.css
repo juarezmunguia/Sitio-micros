@@ -1,29 +1,29 @@
 #final {
   width: 1250px; /*Ancho del div contenido final*/
   height: 150px; /*Alto del div contenido final*/
-  background-color: #0C0C0F; /*Color de fondo del contenido final*/
   margin: 0 auto; /*Centra horizontalmente el bloque*/
   border-radius: 20px; /*Bordea el cuadrado de texto*/
-  padding: 10px; /*Espacio entre el borde y el contenido*/
   box-shadow: 0px 0px 20px rgba(12,12,15,0.5); /*Añade efectos de sombra alrededor del cuadro de texto*/
+  padding: 10px; /*Espacio entre el borde y el contenido*/
+  background-color: #0C0C0F; /*Color de fondo del contenido final*/
 }
 
 #tituloFin {
   float: left; /*Alinea el recuadro que contiene al título a la izquierda*/
   width: 250px; /*Ancho del div del título*/
   height: 120px; /*Alto del div del título*/
+  text-align: justify; /*Alinea el texto de manera justificada*/
   margin: 3px 45px 3px 90px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
   padding: 10px; /*Espacio entre el borde y el contenido*/
-  text-align: justify; /*Alinea el texto de manera justificada*/
 }
 
 .personalizadoFin {
+  text-align: center; /*Alinea el texto de manera centrada*/
+  border-radius: 5px; /*Bordea las claves de las materia*/
+  padding: 3px; /*Espacio entre el borde y el contenido*/
   font-family: "Digital"; /*Usa la fuente personalizada para las claves*/
   font-size: 20px; /*Tamaño de 20px*/
   color: #0C0C0F; /*Color de la fuente*/
-  border-radius: 5px; /*Bordea las claves de las materia*/
-  padding: 3px; /*Espacio entre el borde y el contenido*/
-  text-align: center; /*Alinea el texto de manera centrada*/
 }
 
 .imgFin {

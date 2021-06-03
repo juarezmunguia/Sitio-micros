@@ -6,7 +6,7 @@ body {
 }
 
 #contenido {
-  width: 960px; /*Ancho del div delcontenido*/
+  width: 960px; /*Ancho del div del contenido*/
   height: 650px; /*Alto del div del contenido*/
   margin: 0 auto; /*Centra horizontalmente el bloque*/
   text-align: center; /*Alinea el texto de manera centrada*/
@@ -40,12 +40,12 @@ h2 {
 nav ul li {
   display: inline-block; /*Muestra los elementos de navegación de manera horizontal*/
   margin-right: 50px; /*Separa cada elemento 50px*/
+  padding: 5px; /*Espacio entre el borde y el contenido*/
   cursor: pointer; /*Cambia el cursor a una mano*/
-  font-weight: bolder; /*Define la letra en negritas*/
   font-family: "Digital"; /*Usa la fuente personalizada para las opciones de navegación*/
   font-size: 18px; /*Tamaño de 18px*/
+  font-weight: bolder; /*Define la letra en negritas*/
   color: #F7FDFB;  /*Color de la fuente*/
-  padding: 5px; /*Espacio entre el borde y el contenido*/
   transition: all 0.5s linear; /*Animación de los elementos de navegación*/
   -webkit-transition: all 0.5s linear;
   -moz-transition: all 0.5s linear;
@@ -53,9 +53,9 @@ nav ul li {
 }
 
 nav ul li:hover {
+  border-radius: 5px; /*Crea bordes a los elementos de navegación*/
   background-color: #AAAAAA; /*Rellena de gris al pasar el cursor por un elemento de navegación*/
   color: #FFFFFF; /*Color de los elementos de navegación*/
-  border-radius: 5px; /*Crea bordes a los elementos de navegación*/
 }
 
 nav ul li a {
@@ -65,18 +65,18 @@ nav ul li a {
 #texto {
   width: 800px; /*Ancho del div del contenido principal*/
   height: 450px; /*Alto del div del contenido principal*/
-  background-color: #0C0C0F; /*Color de fondo del div del contenido*/
   margin: 0 auto; /*Centra horizontalmente el bloque*/
   border-radius: 20px; /*Bordea el cuadrado de texto*/
-  padding: 20px; /*Espacio entre el borde y el contenido*/
   box-shadow: 0px 0px 20px rgba(12,12,15,0.5); /*Añade efectos de sombra alrededor del cuadro de texto*/
+  padding: 20px; /*Espacio entre el borde y el contenido*/
+  background-color: #0C0C0F; /*Color de fondo del div del contenido*/
 }
 
 .imgCentral {
   width: 450px; /*Ancho de la imagen central de Inicio*/
   height: 230px; /*Alto de la imagen central de Inicio*/
-  padding: 0px; /*Espacio entre el borde y el contenido*/
   margin-top: 20px; /*Espacio entre el margen superior y la imagen*/
+  padding: 0px; /*Espacio entre el borde y el contenido*/
 }
 
 .descarga {
@@ -92,18 +92,18 @@ nav ul li a {
   float: left; /*Alinea los recuadros de contacto a la izquierda*/
   width: 350px; /*Ancho de los cuadros de contacto*/
   height: 90px; /*Alto de los cuadros de contacto*/
-  margin: 0px 12px 10px 12px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
-  padding: 10px; /*Espacio entre el borde y el contenido*/
   border-radius: 5px; /*Crea bordes a los cuadros de contacto*/
   list-style: none; /*Quita las viñetas de lista*/
+  margin: 0px 12px 10px 12px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
+  padding: 10px; /*Espacio entre el borde y el contenido*/
 }
 
 ul li {
+  text-align: justify; /*Alinea los datos de manera justificada*/
+  margin-bottom: 3px; /*Espacio entre el margen inferior de cada dato*/
   font-family: "Time New Roman"; /*Fuente para los datos de contacto*/
   font-size: 18px; /*Tamaño de 18px*/
   color: #F7FDFB; /*Color de la fuente*/
-  text-align: justify; /*Alinea los datos de manera justificada*/
-  margin-bottom: 3px; /*Espacio entre el margen inferior de cada dato*/
 }
 
 .azul {
@@ -143,12 +143,12 @@ ul li {
 }
 
 a {
-  color: #F7FDFB; /*Color de los enlaces*/
   font-weight: bolder; /*Define la letra en negritas*/
+  color: #F7FDFB; /*Color de los enlaces*/
 }
 
 a:hover {
-  background-color: #AAAAAA; /*Color de fondo de los links al pasar el cursor*/
   border-radius: 5px; /*Crea bordes a los enlaces*/
+  background-color: #AAAAAA; /*Color de fondo de los links al pasar el cursor*/
 }
 
