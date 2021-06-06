@@ -1,4 +1,4 @@
-#final {
+#finalBox {
   width: 1250px; /*Ancho del div contenido final*/
   height: 150px; /*Alto del div contenido final*/
   margin: 0 auto; /*Centra horizontalmente el bloque*/
@@ -8,7 +8,7 @@
   background-color: #0C0C0F; /*Color de fondo del contenido final*/
 }
 
-#tituloFin {
+#titleBox {
   float: left; /*Alinea el recuadro que contiene al título a la izquierda*/
   width: 250px; /*Ancho del div del título*/
   height: 120px; /*Alto del div del título*/
@@ -17,7 +17,28 @@
   text-align: justify; /*Alinea el texto de manera justificada*/
 }
 
-.personalizadoFin {
+.titleFin {
+  font-family: "Digital"; /*Usa la fuente personalizada para los subtítulos*/
+  font-size: 25px; /*Tamaño de 25px*/
+  color: #AAAAAA; /*Color de la fuente*/
+  text-align: center; /*Alinea el texto de forma centrada*/
+}
+
+.finalImg {
+  float: right; /*Alinea la imagen final a la derecha*/
+  width: 120px; /*Ancho de la imagen*/
+  height: 75px; /*Alto de la imagen*/
+}
+
+#keysBox {
+  float: left; /*Alinea el recuadro que contiene las claves a la izquierda*/
+  width: 330px; /*Ancho del div de las claves*/
+  height: 120px; /*Alto del div de las claves*/
+  margin: 3px 45px 3px 45px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
+  padding: 10px; /*Espacio entre el borde y el contenido*/
+}
+
+.keys {
   border-top-left-radius: 10px; /*Bordea la esquina superior izquierda*/
   border-bottom-right-radius: 10px; /*Borde la esquina inferior derecha*/
   padding: 3px; /*Espacio entre el borde y el contenido*/
@@ -27,21 +48,7 @@
   text-align: center; /*Alinea el texto de manera centrada*/
 }
 
-.imgFin {
-  float: right; /*Alinea la imagen final a la derecha*/
-  width: 120px; /*Ancho de la imagen*/
-  height: 75px; /*Alto de la imagen*/
-}
-
-#claves {
-  float: left; /*Alinea el recuadro que contiene las claves a la izquierda*/
-  width: 330px; /*Ancho del div de las claves*/
-  height: 120px; /*Alto del div de las claves*/
-  margin: 3px 45px 3px 45px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
-  padding: 10px; /*Espacio entre el borde y el contenido*/
-}
-
-#enlaces {
+#linksBox {
   float: left; /*Alinea el recuadro que contiene los enlaces a la izquierda*/
   width: 280px; /*Ancho del div de los enlaces*/
   height: 120px; /*Alto del div de los enlaces*/

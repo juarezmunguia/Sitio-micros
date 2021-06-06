@@ -5,7 +5,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3225c4', endColorstr='#d97db9e8',GradientType=0 ); /* IE6-9 */
 }
 
-#contenido {
+#contents {
   width: 960px; /*Ancho del div del contenido*/
   height: 650px; /*Alto del div del contenido*/
   margin: 0 auto; /*Centra horizontalmente el bloque*/
@@ -22,19 +22,6 @@ h1 {
   font-size: 40px; /*Tamaño de 40px*/
   color: #0C0C0F; /*Color de la fuente*/
   text-shadow: 0px 0px 30px rgba(12, 12, 15, 0.5); /*Agrega un sombreado al título*/
-}
-
-h2 {
-  font-family: "Digital"; /*Usa la fuente personalizada para los subtítulos*/
-  font-size: 25px; /*Tamaño de 25px*/
-  color: #AAAAAA; /*Color de la fuente*/
-}
-
-.personalizadoTex {
-  font-family: "Time New Roman"; /*Usa la fuente Times New Roman para el texto*/
-  font-size: 20px; /*Tamaño de 20px*/
-  color: #F7FDFB; /*Color de la fuente*/
-  text-align: justify; /*Alinea el texto de manera justificada*/
 }
 
 nav ul li {
@@ -62,7 +49,7 @@ nav ul li a {
   text-decoration: none; /*Quita el subrayado de los elementos de navegación*/
 }
 
-#texto {
+#textBox {
   width: 800px; /*Ancho del div del contenido principal*/
   height: 450px; /*Alto del div del contenido principal*/
   margin: 0 auto; /*Centra horizontalmente el bloque*/
@@ -72,14 +59,27 @@ nav ul li a {
   background-color: #0C0C0F; /*Color de fondo del div del contenido*/
 }
 
-.imgCentral {
+h2 {
+  font-family: "Digital"; /*Usa la fuente personalizada para los subtítulos*/
+  font-size: 25px; /*Tamaño de 25px*/
+  color: #AAAAAA; /*Color de la fuente*/
+}
+
+.text {
+  font-family: "Time New Roman"; /*Usa la fuente Times New Roman para el texto*/
+  font-size: 20px; /*Tamaño de 20px*/
+  color: #F7FDFB; /*Color de la fuente*/
+  text-align: justify; /*Alinea el texto de manera justificada*/
+}
+
+.centralImg {
   width: 450px; /*Ancho de la imagen central de Inicio*/
   height: 230px; /*Alto de la imagen central de Inicio*/
   margin-top: 20px; /*Espacio entre el margen superior y la imagen*/
   padding: 0px; /*Espacio entre el borde y el contenido*/
 }
 
-.descarga {
+.toDownload {
   float: left; /*Alinea las imágenes de descarga a la izquierda*/
   width: 175px; /*Ancho de las imágenes de descarga*/
   height: 175px; /*Alto de las imágenes de descarga*/
@@ -88,7 +88,7 @@ nav ul li a {
   cursor: pointer; /*Cambia el cursor a una mano*/
 }
 
-.profesor {
+.teacherBox {
   float: left; /*Alinea los recuadros de contacto a la izquierda*/
   width: 350px; /*Ancho de los cuadros de contacto*/
   height: 90px; /*Alto de los cuadros de contacto*/
@@ -98,48 +98,48 @@ nav ul li a {
   list-style: none; /*Quita las viñetas de lista*/
 }
 
+.colorBlue {
+  border-color: #47BDDA; /*Color del borde de contacto*/
+  border-width: 3px; /*Ancho del borde de contacto*/
+  border-style: solid; /*Estilo de línea sólido del borde de contacto*/
+}
+
+.colorPink {
+  border-color: #EEB9FE;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.colorPurple {
+  border-color: #9F8AF1;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.colorGreen {
+  border-color: #2FDFAE;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.colorYellow {
+  border-color: #FFF783;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.colorRed {
+  border-color: #FDAABB;
+  border-width: 3px;
+  border-style: solid;
+}
+
 ul li {
   margin-bottom: 3px; /*Espacio entre el margen inferior de cada dato*/
   font-family: "Time New Roman"; /*Fuente para los datos de contacto*/
   font-size: 18px; /*Tamaño de 18px*/
   color: #F7FDFB; /*Color de la fuente*/
   text-align: justify; /*Alinea los datos de manera justificada*/
-}
-
-.azul {
-  border-color: #47BDDA; /*Color del borde de contacto*/
-  border-width: 3px; /*Ancho del borde de contacto*/
-  border-style: solid; /*Estilo de línea sólido del borde de contacto*/
-}
-
-.rosa {
-  border-color: #EEB9FE;
-  border-width: 3px;
-  border-style: solid;
-}
-
-.morado {
-  border-color: #9F8AF1;
-  border-width: 3px;
-  border-style: solid;
-}
-
-.verde {
-  border-color: #2FDFAE;
-  border-width: 3px;
-  border-style: solid;
-}
-
-.amarillo {
-  border-color: #FFF783;
-  border-width: 3px;
-  border-style: solid;
-}
-
-.rojo {
-  border-color: #FDAABB;
-  border-width: 3px;
-  border-style: solid;
 }
 
 a {
