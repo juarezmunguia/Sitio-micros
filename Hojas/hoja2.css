@@ -10,10 +10,10 @@
 
 #titleBox {
   float: left; /*Alinea el recuadro que contiene al título a la izquierda*/
-  width: 250px; /*Ancho del div del título*/
+  width: 330px; /*Ancho del div del título*/
   height: 120px; /*Alto del div del título*/
-  margin: 3px 45px 3px 90px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
-  padding: 10px; /*Espacio entre el borde y el contenido*/
+  margin: 3px 45px 3px 45px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
+  padding: 5px; /*Espacio entre el borde y el contenido*/
   text-align: justify; /*Alinea el texto de manera justificada*/
 }
 
@@ -26,8 +26,8 @@
 
 .finalImg {
   float: right; /*Alinea la imagen final a la derecha*/
-  width: 120px; /*Ancho de la imagen*/
-  height: 75px; /*Alto de la imagen*/
+  width: 130px; /*Ancho de la imagen*/
+  height: 90px; /*Alto de la imagen*/
 }
 
 #keysBox {
@@ -35,7 +35,7 @@
   width: 330px; /*Ancho del div de las claves*/
   height: 120px; /*Alto del div de las claves*/
   margin: 3px 45px 3px 45px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
-  padding: 10px; /*Espacio entre el borde y el contenido*/
+  padding: 5px; /*Espacio entre el borde y el contenido*/
 }
 
 .keys {
@@ -53,5 +53,5 @@
   width: 280px; /*Ancho del div de los enlaces*/
   height: 120px; /*Alto del div de los enlaces*/
   margin: 3px 45px 3px 45px; /*Modifica los márgenes -> arriba, der, abajo, izq*/
-  padding: 10px; /*Espacio entre el borde y el contenido*/
+  padding: 5px; /*Espacio entre el borde y el contenido*/
 }

@@ -73,10 +73,9 @@ h2 {
 }
 
 .centralImg {
-  width: 450px; /*Ancho de la imagen central de Inicio*/
-  height: 230px; /*Alto de la imagen central de Inicio*/
-  margin-top: 20px; /*Espacio entre el margen superior y la imagen*/
-  padding: 0px; /*Espacio entre el borde y el contenido*/
+  width: 430px; /*Ancho de la imagen central de Inicio*/
+  height: 300px; /*Alto de la imagen central de Inicio*/
+  margin: 0px; /*Espacio entre el margen superior y la imagen*/
 }
 
 .toDownload {
