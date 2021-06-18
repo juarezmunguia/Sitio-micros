@@ -27,7 +27,7 @@ h1 {
 
 .leftImg {
   float: left;
-  width: 135px;
+  width: 140px;
   height: 120px;
 }
 
@@ -39,7 +39,8 @@ h1 {
 
 nav ul li {
   display: inline-block; /*Muestra los elementos de navegación de manera horizontal*/
-  margin-right: 50px; /*Separa cada elemento 50px*/
+  margin-right: 30px; /*Espacio a la derecha del elementopx*/
+  margin-left: 30px; /*Espacio a la izquierda del elemento*/
   padding: 5px; /*Espacio entre el borde y el contenido*/
   cursor: pointer; /*Cambia el cursor a una mano*/
   font-family: "Digital"; /*Usa la fuente personalizada para las opciones de navegación*/
