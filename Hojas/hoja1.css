@@ -22,7 +22,7 @@ h1 {
   font-family: "Digital"; /*Usa la fuente personalizada para el título*/
   font-size: 40px; /*Tamaño de 40px*/
   color: #0C0C0F; /*Color de la fuente*/
-  text-shadow: 0px 0px 30px rgba(12, 12, 15, 0.5); /*Agrega un sombreado al título*/
+  text-shadow: 6px 6px 5px rgba(12, 12, 15, 0.5); /*Agrega un sombreado al título. DH, DV, DdD, C*/
 }
 
 .leftImg {
